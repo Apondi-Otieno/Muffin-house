@@ -1,7 +1,12 @@
-.topnav{
-  background-image: url(https://wallpaperaccess.com/full/3378467.jpg); 
+.topnav {
+  background-image: url(https://wallpaperaccess.com/full/3378467.jpg);
   background-size: cover;
-  height:25rem;
-  
-
+  height: 25rem;
+}
+#menu {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 700px;
 }
