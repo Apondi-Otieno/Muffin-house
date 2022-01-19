@@ -1,0 +1,108 @@
+body{
+  /* background-color: Black; */
+}
+.topnav {
+  background-image: url(https://wallpaperaccess.com/full/3378467.jpg);
+  background-size: cover;
+  height: 25rem;
+}
+#menu {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 700px;
+}
+#paragraph{
+  color: white;
+  text-align: center;
+}
+#para{
+ 
+  color:rgb(4, 4, 19);
+  text-align: center;
+}
+#btnn{
+  margin-left:39rem;
+}
+
+.food{
+  color:white;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  background-color: whitesmoke;
+  height:15rem; 
+  background-image: url(https://images.unsplash.com/photo-1473340325660-0f786fd1571c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNTMzNTEwfHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+}
+.final{
+  height:25rem;
+  background-image:url(https://c0.wallpaperflare.com/preview/1013/496/951/mockup-bakery-bread-pastry.jpg);
+  background-size: cover;
+}
+#pictures{
+  background-color: rgba(173, 216, 230, 0.425);
+ /* background-image: url(https://cutewallpaper.org/22/black-vertical-4k-wallpapers/5620732.jpg); */
+}
+.head1{
+  color:rgb(4, 4, 19);
+  font-family: "Dongle", sans-serif;
+  margin-left:1.5rem;
+}
+.head11{
+  color:rgb(4, 4, 19);
+  margin-left:10.5rem;
+}
+.head111{
+  color:rgb(4, 4, 19);
+  margin-left:20.5rem;
+}
+#dish{
+  margin-left:14.5rem;
+}
+#para1{
+  color:rgb(4, 4, 19);
+  
+  text-align:center;
+  margin-right: 9rem;
+}
+.final>h2{
+  color:white;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500px;
+  font-family: "Playfair Display", serif;
+}
+#float2{
+  color:black;
+}
+#offer{
+  color:white;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+}
+.row{
+  cursor: pointer;
+}
+/* #head {
+  height: 60rem;
+  background-image: url(../images/head.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.collapse{
+  padding-left:4rem;
+}
+
+.nav-item{
+  padding-left:3rem;
+  font-size:1.4rem;
+}
+
+.navbar-brand{
+  font-size:2rem;
+  font-weight:bold;
+}
+i:hover{
+  color: rgb(4, 4, 19);
+  }

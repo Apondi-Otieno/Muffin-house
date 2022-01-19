@@ -1,0 +1,73 @@
+.box {
+    background-image: url("../images/poor-kids.jpg");
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    padding: 90px;
+    padding-left: 200px;
+    color: white;
+    
+   
+}
+.save {
+    font-family: 'Permanent Marker', cursive;
+    font-size: xx-large;
+}
+
+.donate-box {
+    float: left;
+    width: 55%;
+    height: 93%;
+    padding-left: 50px;
+    padding-top: 10px;
+    background:rgba(4, 4, 19, 0.5);
+    color: white;
+    position: relative;
+    padding-right: 50px;
+}
+.form-check {
+    border: 1px solid white;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.form-check-label {
+    float: left;
+}
+.donate-amount {
+    font-size: small;
+    
+}
+label {
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: serif;   
+
+}
+.radio-inline {
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.collapse{
+    padding-left:4rem;
+}
+  
+.nav-item{
+    padding-left:3rem;
+    font-size:1.4rem;
+}
+  
+.navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+}
+i:hover{
+    color: rgb(4, 4, 19);
+}
+.labelChk {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: serif; 
+}

@@ -21,9 +21,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
 
     <title>
-        Muffin Hut
+        Muffin House
     </title>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -43,6 +43,15 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
+<<<<<<< HEAD:Contact-Us/contact.html
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact Us</a>
+=======
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
@@ -50,6 +59,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link " href="contact.html">Contact Us</a>
+>>>>>>> 802c908447787b16d6a3a1fe66295b87327d2803:index.html
                             </li>
                             <!-- <li class="nav-item ">
                                 <a class="nav-link " href="#" aria-expanded="false">
@@ -74,21 +84,33 @@
         </div>
     </header>
 
-    <div class="container" id="menu">
-        <marquee id="float" direction="left" height="100" width="900" bg color="black"><b>OUR BEST-SELLING!</b>
-        </marquee>
+    <!-- contact form -->
+    <div class="container" id="form">
+        <h4 id="h4" class="text-light">CONTACT US</h4>
 
-        <div class="image-responsive">
+        <form onsubmit="myFunction()" class="container-fluid" id="contact" action="mailto:muffinhutt@gmail.com" method="post" role="form">
+            <div id="form-text">
 
-            <img src="images-home/muffin2.jpeg" alt="" width="30%" class="menu-image">
-            <img src="images-home/muffin3.png" alt="" width="30%" class="menu-image">
-            <img src="images-home/muffin4.jpeg" alt="" width="30%" class="menu-image">
-            <img src="images-home/muffin5.jpeg" alt="" width="30%" class="menu-image">
-            <img src="images-home/muffin6.jpeg" alt="" width="30%" class="menu-image">
-            <img src="images-home/muffin7.jpeg" alt="" width="30%" class="menu-image">
-
-        </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="john doe">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block text-light border-white">
+                    Send
+                </button>
+            </div>
+        </form>
     </div>
+
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
         <!-- Section: Social media -->
@@ -148,10 +170,10 @@
                             Our Products
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset">Order Pastry</a>
+                            <a href="order.html" target="_blank" class="text-reset">Order Pastry</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Donate</a>
+                            <a href="donate.html" class="text-reset">Donate</a>
                         </p>
                         <p>
                             <a href="#!" class="text-reset"></a>
@@ -192,7 +214,11 @@
                         <p><i class="fa fa-home me-3"></i> Nairobi, CBD 00100, KE</p>
                         <p>
                             <i class="fa fa-envelope me-3"></i>
+<<<<<<< HEAD:Contact-Us/contact.html
+                            muffinhutt@gmail.com
+=======
                            muffinhutt@gmail.com
+>>>>>>> 802c908447787b16d6a3a1fe66295b87327d2803:index.html
                         </p>
                         <p><i class="fa fa-phone me-3"></i> + 254 234 567 88</p>
                         <p><i class="fa fa-print me-3"></i> + 254 234 567 89</p>
@@ -207,13 +233,15 @@
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2022 Copyright
+<<<<<<< HEAD:Contact-Us/contact.html
+            <a class="text-reset fw-bold" href="https://github.com/Apondi-Otieno/Muffin-house">Muffin House</a>
+=======
              <a class="text-reset fw-bold" href="https://github.com/Apondi-Otieno/Muffin-house">Muffin House</a>
+>>>>>>> 802c908447787b16d6a3a1fe66295b87327d2803:index.html
         </div>
         <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-
-
+<script src="js/script.js"></script>
 </body>
 
 </html>

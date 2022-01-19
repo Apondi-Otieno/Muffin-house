@@ -1,0 +1,42 @@
+form{
+    padding: 2rem;
+   background-image:linear-gradient(
+      to bottom,
+      rgba(19, 18, 18, 0.3),
+      rgba(10, 9, 9, 0.5)
+    ),
+     url(../images-contact/macarons.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 40rem;
+}
+.form-label{
+  color: white !important;
+}
+.collapse{
+  padding-left:4rem;
+}
+
+.nav-item{
+  padding-left:3rem;
+  font-size:1.4rem;
+}
+i:hover{
+color: rgb(4, 4, 19);
+}
+.navbar-brand{
+  font-size:2rem;
+  font-weight:bold;
+}
+
+#form-text{
+    padding:8rem;
+ 
+}
+#form{
+   padding:4rem; 
+}
+.me-4{
+ 
+  text-decoration: none;
+}
