@@ -43,3 +43,13 @@ justify-content: space-between;
  font-weight:bold;
      
 }
+
+.me-4{
+  font-style: none;
+  text-decoration: none;
+}
+
+i:hover{
+color: rgb(4, 4, 19);
+}
+
