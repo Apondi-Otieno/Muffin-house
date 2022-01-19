@@ -33,9 +33,10 @@ justify-content: space-between;
 #menu{
    font-family: "Dongle", sans-serif;
    padding: 2rem;
-   background-color: rgba(173, 216, 230, 0.178);
-
+   background-color: rgba(173, 216, 230, 0.425);
+  
 }
+
 
 #float {
  
