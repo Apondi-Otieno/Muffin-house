@@ -1,0 +1,31 @@
+#menu-images {
+  display: flex;
+  background-color: rgba(173, 216, 230, 0.418);
+  padding: 4rem;
+}
+
+img {
+  padding: 1rem;
+}
+
+.collapse {
+  padding-left: 4rem;
+}
+
+.nav-item {
+  padding-left: 3rem;
+  font-size: 1.4rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+i:hover {
+  color: rgb(4, 4, 19);
+}
+
+.me-4 {
+  text-decoration: none;
+}
