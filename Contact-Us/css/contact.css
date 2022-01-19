@@ -21,7 +21,9 @@ form{
   padding-left:3rem;
   font-size:1.4rem;
 }
-
+i:hover{
+color: rgb(4, 4, 19);
+}
 .navbar-brand{
   font-size:2rem;
   font-weight:bold;
