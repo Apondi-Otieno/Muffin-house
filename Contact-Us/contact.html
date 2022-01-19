@@ -43,13 +43,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="#">About Us</a>
+                                <a class="nav-link " href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Contact Us</a>
+                                <a class="nav-link active" href="contact.html">Contact Us</a>
                             </li>
                             <!-- <li class="nav-item ">
                                 <a class="nav-link " href="#" aria-expanded="false">
@@ -66,7 +66,8 @@
                             </li> -->
 
                         </ul>
-                        <button type="button" class="btn btn-dark">DONATE</button>
+                        <a href="donate.html"> <button type="button" class="btn btn-dark">DONATE</button></a>
+
                     </div>
                 </div>
             </nav>
@@ -76,27 +77,27 @@
     <!-- contact form -->
     <div class="container" id="form">
         <h4 id="h4" class="text-light">CONTACT US</h4>
-       
-        <form class="container-fluid" id="contact" action="https://gmail.us3.list-manage.com/subscribe/post"
-            method="post" role="form">
-            <div id="form-text">
-            <div class="d-flex justify-content-between mb-4">
-                <input type="text" name="name" id="name" width="10rem" height="10rem" placeholder="Name..." required
-                    class="p-2 bg-transparent border border-white mb-2 " />
 
+        <form onsubmit="myFunction()" class="container-fluid" id="contact" action="mailto:muffinhutt@gmail.com" method="post" role="form">
+            <div id="form-text">
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="john doe">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-block text-light border-white">
+                    Send
+                </button>
             </div>
-            <div class="d-flex justify-content-between mb-4">
-                <input type="email" name="email" id="email" width="10rem" height="10rem" placeholder="Email..." required
-                    class="p-2 bg-transparent border border-white mb-2 " />
-            </div>
-            <div class="d-flex justify-content-between mb-4">
-                <textarea name="message" id="message" width="10rem" height="10rem"  placeholder="Your message here..."
-                    class="p-2 mb-4 bg-transparent text-light w-100 border border-white"></textarea>
-            </div>
-            <button type="submit" class="btn btn-block text-light border-white">
-                Send
-            </button>
-           </div>
         </form>
     </div>
 
@@ -203,7 +204,7 @@
                         <p><i class="fa fa-home me-3"></i> Nairobi, CBD 00100, KE</p>
                         <p>
                             <i class="fa fa-envelope me-3"></i>
-                            muffinhouse@gmail.com
+                            muffinhutt@gmail.com
                         </p>
                         <p><i class="fa fa-phone me-3"></i> + 254 234 567 88</p>
                         <p><i class="fa fa-print me-3"></i> + 254 234 567 89</p>
@@ -222,7 +223,7 @@
         </div>
         <!-- Copyright -->
     </footer>
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
