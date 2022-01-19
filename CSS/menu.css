@@ -1,5 +1,5 @@
 body{
-  background-color: Black;
+  /* background-color: Black; */
 }
 .topnav {
   background-image: url(https://wallpaperaccess.com/full/3378467.jpg);
@@ -13,8 +13,13 @@ body{
   font-size: 7rem;
   font-weight: 700px;
 }
+#paragraph{
+  color: white;
+  text-align: center;
+}
 #para{
-  color:white;
+ 
+  color:rgb(4, 4, 19);
   text-align: center;
 }
 #btnn{
@@ -35,25 +40,28 @@ body{
   background-size: cover;
 }
 #pictures{
- background-image: url(https://cutewallpaper.org/22/black-vertical-4k-wallpapers/5620732.jpg);
+  background-color: rgba(173, 216, 230, 0.425);
+ /* background-image: url(https://cutewallpaper.org/22/black-vertical-4k-wallpapers/5620732.jpg); */
 }
 .head1{
-  color:white;
+  color:rgb(4, 4, 19);
+  font-family: "Dongle", sans-serif;
   margin-left:1.5rem;
 }
 .head11{
-  color:white;
+  color:rgb(4, 4, 19);
   margin-left:10.5rem;
 }
 .head111{
-  color:white;
+  color:rgb(4, 4, 19);
   margin-left:20.5rem;
 }
 #dish{
   margin-left:14.5rem;
 }
 #para1{
-  color:white;
+  color:rgb(4, 4, 19);
+  
   text-align:center;
   margin-right: 9rem;
 }
@@ -76,12 +84,12 @@ body{
 .row{
   cursor: pointer;
 }
-#head {
+/* #head {
   height: 60rem;
   background-image: url(../images/head.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .collapse{
   padding-left:4rem;
 }
