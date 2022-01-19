@@ -1,7 +1,15 @@
+#head{
+    background-image: url(../Home/home-images/muffin1.jpeg);
+    height:60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #menu-images {
-  display: flex;
+ font-size: 2rem;
   background-color: rgba(173, 216, 230, 0.418);
   padding: 4rem;
+   font-family: "Dongle", sans-serif;
 }
 
 img {
