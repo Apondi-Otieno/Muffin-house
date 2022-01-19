@@ -73,3 +73,28 @@ body{
   font-family: "Playfair Display", serif;
   font-size: 4rem;
 }
+.row{
+  cursor: pointer;
+}
+#head {
+  height: 60rem;
+  background-image: url(../images/head.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collapse{
+  padding-left:4rem;
+}
+
+.nav-item{
+  padding-left:3rem;
+  font-size:1.4rem;
+}
+
+.navbar-brand{
+  font-size:2rem;
+  font-weight:bold;
+}
+i:hover{
+  color: rgb(4, 4, 19);
+  }
