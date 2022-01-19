@@ -1,12 +1,45 @@
 #head {
   height: 60rem;
-  background-image: 
-  /* linear-gradient(
-      to-bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.5),
-    ), */
-    url(../images-home/muffin1.jpeg);
+  background-image: url(../images-home/muffin1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.collapse{
+  padding-left:4rem;
+}
+
+.nav-item{
+  padding-left:3rem;
+  font-size:1.4rem;
+}
+
+.navbar-brand{
+  font-size:2rem;
+  font-weight:bold;
+}
+
+.image-fluid {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.menu-image {
+  padding: 2rem;
+  margin-left: 2.5%;
+}
+
+#menu{
+   font-family: "Dongle", sans-serif;
+   padding: 2rem;
+   background-color: rgba(173, 216, 230, 0.178);
+
+}
+
+#float {
+ 
+  font-size:3rem;
+ font-weight:bold;
+     
 }
