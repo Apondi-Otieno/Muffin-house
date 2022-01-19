@@ -39,6 +39,23 @@ body{
 }
 .head1{
   color:white;
+  margin-left:1.5rem;
+}
+.head11{
+  color:white;
+  margin-left:10.5rem;
+}
+.head111{
+  color:white;
+  margin-left:20.5rem;
+}
+#dish{
+  margin-left:14.5rem;
+}
+#para1{
+  color:white;
+  text-align:center;
+  margin-right: 9rem;
 }
 .final>h2{
   color:white;
@@ -49,4 +66,10 @@ body{
 }
 #float2{
   color:black;
+}
+#offer{
+  color:white;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
 }
