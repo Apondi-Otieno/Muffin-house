@@ -1,0 +1,44 @@
+span{
+    color: grey;
+    text-decoration: underline;
+    text-align: center;
+}
+.about >h2{
+    text-align: center;
+}
+
+.wrap p{
+ text-align: center;
+ font-family: copse serif;
+font-size: larger;
+
+}
+#Welcome >p{
+    position: relative;
+    top: 20%;   
+}
+.row2 img{
+    margin-top: 15px;
+}
+
+#product >p{
+   position: relative;
+}
+#mission{
+    margin-left:150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-item{
+    padding-left:3rem;
+    font-size:1.4rem;
+  }
+  
+  .navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+  }
+
+
+
+
