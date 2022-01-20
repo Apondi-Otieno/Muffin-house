@@ -17,6 +17,9 @@ https://apondi-otieno.github.io/Muffin-house/
 
 # License
 
+MIT License
+
+Copyright (c) 2022 Apondi Otieno
 
 
 
