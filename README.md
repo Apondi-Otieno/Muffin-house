@@ -11,6 +11,17 @@ This is why our team is coming up with Muffin House, a bakery website whose proc
 3. CSS
 4. BOOTSTRAP
 
-# Display
+# Live Link
+
+https://apondi-otieno.github.io/Muffin-house/
+
+# License
+
+
+
+
+
+
+
 
 
