@@ -5,8 +5,11 @@
     background-size: cover;
 }
 
+#menu-text {
+  font-size: 4rem;
+}
 #menu-images {
- font-size: 2rem;
+ 
   background-color: rgba(173, 216, 230, 0.418);
   padding: 4rem;
    font-family: "Dongle", sans-serif;
